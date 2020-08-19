@@ -1,0 +1,19 @@
+.Tile{
+    display: inline-block;
+    border: 1px solid #ccc;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 15px;
+    vertical-align:top; 
+    text-align: center;
+}
+.Tile span {
+    position: relative;
+    top: 8px;
+    font-size: 65px;
+    text-align: center;
+}
+
+.Tile:hover{
+    background-color: #eee;
+}
