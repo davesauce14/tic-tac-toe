@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start --no-cache",
-    "build": "react-scripts build --no-cache",
+    "build": "CI=false && react-scripts build --no-cache",
     "test": "react-scripts test --no-cache",
     "eject": "react-scripts eject --no-cache"
   },
